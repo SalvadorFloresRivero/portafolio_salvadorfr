@@ -9,6 +9,7 @@ const proyectos = require("../data/proyectos");
 function CardPortafolio() {
   return (
     <>
+    <div className='container'>
     {
         proyectos.map( (proy) => {
             return (
@@ -28,6 +29,7 @@ function CardPortafolio() {
             )
         } )
     }
+    </div>
     </>
   )
 }
